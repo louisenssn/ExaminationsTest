@@ -2175,7 +2175,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84eec729976054c50b5b86e1bd25dc78, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CustomizablePlatformerMovement
-  maxSpeed: 10
+  maxSpeed: 2.5
   jumpForce: 10
   rigidbody: {fileID: 1858139249}
   groundCheckCollider: {fileID: 366676914}
