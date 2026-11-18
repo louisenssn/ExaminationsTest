@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 
+
             /////////////// INFORMATION ///////////////
 // This script is intended to work on a GameObject with
 // a Rigidbody2D-component (tip: it probably needs constraints),
@@ -92,6 +93,7 @@ public class CustomizablePlatformerMovement : MonoBehaviour
         
         // Write movement animation code here. (Suggestion: send your current velocity into the Animator for both the x- and y-axis.)
         // animator.SetFloat("HorizontalMovement", moveInput.x)
+        
         
         // Flip sprite according to direction (if a sprite renderer has been assigned)
         if (spriteRenderer)
