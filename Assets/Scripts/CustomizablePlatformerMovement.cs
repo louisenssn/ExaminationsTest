@@ -35,6 +35,8 @@ public class CustomizablePlatformerMovement : MonoBehaviour
     private bool jumpReleased;
     private bool wasGrounded;
     private bool isGrounded;
+    public InputAction inputAction;
+    
 
     [Header("Graphics")]
     [SerializeField] private SpriteRenderer spriteRenderer;
@@ -89,6 +91,7 @@ public class CustomizablePlatformerMovement : MonoBehaviour
         velocity.x = moveInput.x * maxSpeed;
 
         animator.SetBool("OnMove", Mathf.Abs(moveInput.x) > 0.01f);
+        
         
         
         // Write movement animation code here. (Suggestion: send your current velocity into the Animator for both the x- and y-axis.)
